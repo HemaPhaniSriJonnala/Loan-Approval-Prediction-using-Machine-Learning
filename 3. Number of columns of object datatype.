@@ -1,0 +1,2 @@
+obj = (data.dtypes == 'object') 
+print("Categorical variables:",len(list(obj[obj].index)))
