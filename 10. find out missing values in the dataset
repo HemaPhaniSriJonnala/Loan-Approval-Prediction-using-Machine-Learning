@@ -1,1 +1,4 @@
-
+for col in data.columns: 
+  data[col] = data[col].fillna(data[col].mean())  
+    
+data.isna().sum()
