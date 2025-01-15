@@ -1,0 +1,4 @@
+# To find the number of columns with  
+# datatype==object 
+obj = (data.dtypes == 'object') 
+print("Categorical variables:",len(list(obj[obj].index)))
