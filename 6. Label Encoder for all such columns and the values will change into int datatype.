@@ -1,9 +1,0 @@
-# Import label encoder 
-from sklearn import preprocessing 
-    
-# label_encoder object knows how  
-# to understand word labels. 
-label_encoder = preprocessing.LabelEncoder() 
-obj = (data.dtypes == 'object') 
-for col in list(obj[obj].index): 
-  data[col] = label_encoder.fit_transform(data[col])
