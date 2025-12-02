@@ -1,4 +1,0 @@
-sns.catplot(x="Gender", y="Married", 
-            hue="Loan_Status",  
-            kind="bar",  
-            data=data)
